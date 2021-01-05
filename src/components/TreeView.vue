@@ -82,7 +82,7 @@ export default {
     contextMenuItems: {
       type: Array,
       default: function () {
-        [
+        return [
           { code: "DELETE_NODE", label: "Delete node" },
           { code: "RENAME_NODE", label: "Rename node" },
         ];

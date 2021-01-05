@@ -2034,6 +2034,7 @@ var script$3 = {
     contextMenuItems: {
       type: Array,
       default: function _default() {
+        return [{ code: "DELETE_NODE", label: "Delete node" }, { code: "RENAME_NODE", label: "Rename node" }];
       }
     },
     renameNodeOnDblClick: {
@@ -2207,7 +2208,7 @@ var __vue_template__$3 = typeof __vue_render__$3 !== 'undefined' ? { render: __v
 /* style */
 var __vue_inject_styles__$3 = function (inject) {
   if (!inject) return;
-  inject("data-v-00567ab3_0", { source: "\n.tree-view{text-align:left\n}", map: undefined, media: undefined });
+  inject("data-v-77c4658a_0", { source: "\n.tree-view{text-align:left\n}", map: undefined, media: undefined });
 };
 /* scoped */
 var __vue_scope_id__$3 = undefined;
